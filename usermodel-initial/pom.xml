@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.lambdaschool</groupId>
-    <artifactId>usermodel</artifactId>
+    <artifactId>resturants</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>usermodel</name>
+    <name>resturants</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -69,13 +69,20 @@
             <artifactId>springfox-swagger-ui</artifactId>
             <version>2.9.2</version>
         </dependency>
+        <!-- Swagger Dependencies End -->
 
+        <!-- https://mvnrepository.com/artifact/io.rest-assured/spring-mock-mvc -->
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>spring-mock-mvc</artifactId>
+            <version>3.3.0</version>
+            <scope>test</scope>
+        </dependency>
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-bean-validators</artifactId>
             <version>2.9.2</version>
         </dependency>
-        <!-- Swagger Dependencies End -->
     </dependencies>
 
     <build>
